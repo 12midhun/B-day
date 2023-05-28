@@ -1,12 +1,12 @@
 body {
     margin: 0;
     background: #020202;
-    cursor: crosshair;
+    
   }
-  canvas{display:block}
+  
   h1 {
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
@@ -16,16 +16,11 @@ body {
     -webkit-user-select: none;
     user-select: none;
   }
-  .link{
-    text-decoration: none;
-   
-  }
+  
   a{
     color: #fff;
   }
-  button{
-    color: black;
-    border: 1px solid;
-    padding: auto;
+  .btn{
+    max-height: 100px;
   
   }
